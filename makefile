@@ -4,5 +4,5 @@ program: program.o mylib.o
 program.o: program.cpp mylib.hpp
         g++ -c program.cpp
 
-mylib.o: mylib.cpp mylib.hpp
+mylib.o: tests.cpp mylib.hpp
         g++ -c hylib.cpp
